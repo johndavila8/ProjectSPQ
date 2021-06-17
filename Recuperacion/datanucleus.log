@@ -1,0 +1,340 @@
+17:49:10,868 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+17:49:10,902 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/C:/Users/PC-John/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+17:49:10,931 (main) DEBUG [DataNucleus.General] - Leyendo extension-points y extensiones del archivo de plug-in jar:file:/C:/Users/PC-John/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+17:49:10,938 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 5.2.8 at URL file:/C:/Users/PC-John/.m2/repository/org/datanucleus/datanucleus-core/5.2.8/datanucleus-core-5.2.8.jar.
+17:49:10,949 (main) DEBUG [DataNucleus.General] - Leyendo extension-points y extensiones del archivo de plug-in jar:file:/C:/Users/PC-John/.m2/repository/org/datanucleus/datanucleus-core/5.2.8/datanucleus-core-5.2.8.jar!/plugin.xml.
+17:49:10,960 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 5.2.7 at URL file:/C:/Users/PC-John/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.7/datanucleus-api-jdo-5.2.7.jar.
+17:49:10,975 (main) DEBUG [DataNucleus.General] - Leyendo extension-points y extensiones del archivo de plug-in jar:file:/C:/Users/PC-John/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.2.7/datanucleus-api-jdo-5.2.7.jar!/plugin.xml.
+17:49:10,981 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 5.2.8 at URL file:/C:/Users/PC-John/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.8/datanucleus-rdbms-5.2.8.jar.
+17:49:10,988 (main) DEBUG [DataNucleus.General] - Leyendo extension-points y extensiones del archivo de plug-in jar:file:/C:/Users/PC-John/.m2/repository/org/datanucleus/datanucleus-rdbms/5.2.8/datanucleus-rdbms-5.2.8.jar!/plugin.xml.
+17:49:11,025 (main) DEBUG [DataNucleus.Persistence] - Tipos de Java inicializando ...
+17:49:11,097 (main) DEBUG [DataNucleus.Persistence] - Soporte para tipos de Java listo : tipos soportados = [B, [C, [D, [F, [I, [J, [Ljava.lang.Boolean;, [Ljava.lang.Byte;, [Ljava.lang.Character;, [Ljava.lang.Double;, [Ljava.lang.Enum;, [Ljava.lang.Float;, [Ljava.lang.Integer;, [Ljava.lang.Long;, [Ljava.lang.Number;, [Ljava.lang.Object;, [Ljava.lang.Short;, [Ljava.lang.String;, [Ljava.math.BigDecimal;, [Ljava.math.BigInteger;, [Ljava.util.Date;, [Ljava.util.Locale;, [S, [Z, boolean, byte, char, double, float, int, java.awt.Color, java.awt.image.BufferedImage, java.lang.Boolean, java.lang.Byte, java.lang.Character, java.lang.Class, java.lang.Double, java.lang.Enum, java.lang.Float, java.lang.Integer, java.lang.Long, java.lang.Number, java.lang.Short, java.lang.String, java.lang.StringBuffer, java.lang.StringBuilder, java.math.BigDecimal, java.math.BigInteger, java.net.URI, java.net.URL, java.sql.Date, java.sql.Time, java.sql.Timestamp, java.time.Duration, java.time.Instant, java.time.LocalDate, java.time.LocalDateTime, java.time.LocalTime, java.time.MonthDay, java.time.OffsetDateTime, java.time.OffsetTime, java.time.Period, java.time.Year, java.time.YearMonth, java.time.ZonedDateTime, java.time.ZoneId, java.time.ZoneOffset, java.util.ArrayList, java.util.Arrays$ArrayList, java.util.BitSet, java.util.Calendar, java.util.Collection, java.util.Currency, java.util.Date, java.util.GregorianCalendar, java.util.HashMap, java.util.HashSet, java.util.Hashtable, java.util.LinkedHashMap, java.util.LinkedHashSet, java.util.LinkedList, java.util.List, java.util.Locale, java.util.Map, java.util.Optional, java.util.PriorityQueue, java.util.Properties, java.util.Queue, java.util.Set, java.util.SortedMap, java.util.SortedSet, java.util.Stack, java.util.TimeZone, java.util.TreeMap, java.util.TreeSet, java.util.UUID, java.util.Vector, long, short
+17:49:11,097 (main) DEBUG [DataNucleus.Persistence] - Inicializando TypeConverters ...
+17:49:11,210 (main) DEBUG [DataNucleus.Persistence] - TypeConverters listo
+17:49:11,211 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for byte[] to : java.nio.ByteBuffer
+17:49:11,211 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for char[] to : java.nio.ByteBuffer
+17:49:11,211 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for double[] to : java.nio.ByteBuffer
+17:49:11,211 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for float[] to : java.nio.ByteBuffer
+17:49:11,211 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for int[] to : java.nio.ByteBuffer
+17:49:11,211 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for long[] to : java.nio.ByteBuffer
+17:49:11,211 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for [Ljava.math.BigDecimal; to : java.nio.ByteBuffer
+17:49:11,211 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for [Ljava.math.BigInteger; to : java.nio.ByteBuffer
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for short[] to : java.nio.ByteBuffer
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for boolean[] to : java.nio.ByteBuffer
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.awt.Color to : int[],java.lang.String
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.awt.image.BufferedImage to : byte[],java.nio.ByteBuffer
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.io.Serializable to : java.lang.String,byte[],java.nio.ByteBuffer
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Boolean to : java.lang.Character,java.lang.Integer
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Character to : java.lang.String
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Class to : java.lang.String
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Integer to : java.lang.String
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Long to : java.lang.String
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuffer to : java.lang.String
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuilder to : java.lang.String
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigDecimal to : java.lang.Double,java.lang.String
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigInteger to : java.lang.String,java.lang.Long
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URI to : java.lang.String
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URL to : java.lang.String
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Date to : java.lang.String,java.lang.Long,java.util.Date
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Time to : java.lang.String,java.lang.Long,java.util.Date
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Timestamp to : java.lang.String,java.lang.Long,java.util.Date
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Duration to : java.lang.Double,java.lang.String,java.lang.Long
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Instant to : java.lang.String,java.lang.Long,java.sql.Timestamp,java.util.Date
+17:49:11,212 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalDate to : java.lang.String,java.sql.Date,java.util.Date
+17:49:11,213 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalDateTime to : java.lang.String,java.sql.Timestamp,java.util.Date
+17:49:11,213 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalTime to : java.lang.String,java.sql.Time,java.lang.Long,java.util.Date
+17:49:11,213 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.MonthDay to : int[],java.lang.String,java.sql.Date,java.util.Date
+17:49:11,213 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.OffsetDateTime to : java.lang.String,java.sql.Timestamp,java.util.Date
+17:49:11,213 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.OffsetTime to : java.lang.String,java.sql.Time,java.lang.Long
+17:49:11,213 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Period to : int[],java.lang.String
+17:49:11,213 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Year to : java.lang.String,java.lang.Integer
+17:49:11,213 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.YearMonth to : int[],java.lang.String,java.sql.Date,java.util.Date
+17:49:11,213 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZonedDateTime to : java.lang.String,java.sql.Timestamp
+17:49:11,215 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZoneId to : java.lang.String
+17:49:11,215 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZoneOffset to : java.lang.String
+17:49:11,215 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.BitSet to : java.lang.String
+17:49:11,215 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Calendar to : java.lang.String,[Ljava.lang.Object;,java.sql.Timestamp,java.util.Date
+17:49:11,215 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Currency to : java.lang.String
+17:49:11,215 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Date to : java.lang.String,java.lang.Long
+17:49:11,215 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Locale to : java.lang.String
+17:49:11,215 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.TimeZone to : java.lang.String
+17:49:11,215 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.UUID to : java.lang.String
+17:49:11,217 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+17:49:11,217 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.8) para el API "JDO" utilisando el JRE "{2}"
+17:49:11,225 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+17:49:11,227 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar
+17:49:11,230 (main) DEBUG [DataNucleus.Enhancer] - Enhancing classes
+17:49:11,255 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Carga de Metadata de las clases "[com.Recuperacion.Recuperacion.Clases.main, com.Recuperacion.Recuperacion.Clases.Tarea, com.Recuperacion.Recuperacion.Clases.TareasResource, com.Recuperacion.Recuperacion.Clases.Usuario, com.Recuperacion.Recuperacion.Clases.UsuarioResource, com.Recuperacion.Recuperacion.Cliente]" ...
+17:49:11,260 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.main" en /META-INF/package.jdo
+17:49:11,261 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.main" en /WEB-INF/package.jdo
+17:49:11,261 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.main" en /package.jdo
+17:49:11,263 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.main" en /com/package.jdo
+17:49:11,263 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.main" en /com/Recuperacion/package.jdo
+17:49:11,264 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.main" en /com/Recuperacion/Recuperacion/package.jdo
+17:49:11,264 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.main" en /com/Recuperacion/Recuperacion/Clases/package.jdo
+17:49:11,266 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.main" en /com/Recuperacion/Recuperacion/Clases/main.jdo
+17:49:11,267 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.main"
+17:49:11,268 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "com.Recuperacion.Recuperacion.Clases.main" no tener Meta-Data
+17:49:11,268 (main) DEBUG [DataNucleus.MetaData] - La clase "com.Recuperacion.Recuperacion.Clases.main" no tiene MetaData o annotaciones.
+17:49:11,319 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.Tarea" tiene anotaciones de JDO y vamos a usarlas.
+17:49:11,337 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.TareasResource" tiene anotaciones pero no hay ningún AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+17:49:11,338 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.TareasResource" en /META-INF/package.jdo
+17:49:11,338 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.TareasResource" en /WEB-INF/package.jdo
+17:49:11,339 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.TareasResource" en /package.jdo
+17:49:11,339 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.TareasResource" en /com/package.jdo
+17:49:11,339 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.TareasResource" en /com/Recuperacion/package.jdo
+17:49:11,340 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.TareasResource" en /com/Recuperacion/Recuperacion/package.jdo
+17:49:11,340 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.TareasResource" en /com/Recuperacion/Recuperacion/Clases/package.jdo
+17:49:11,340 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.TareasResource" en /com/Recuperacion/Recuperacion/Clases/TareasResource.jdo
+17:49:11,340 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.TareasResource"
+17:49:11,341 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.TareasResource" tiene anotaciones pero no hay ningún AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+17:49:11,341 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "com.Recuperacion.Recuperacion.Clases.TareasResource" no tener Meta-Data
+17:49:11,341 (main) DEBUG [DataNucleus.MetaData] - La clase "com.Recuperacion.Recuperacion.Clases.TareasResource" no tiene MetaData o annotaciones.
+17:49:11,342 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.Usuario" tiene anotaciones de JDO y vamos a usarlas.
+17:49:11,345 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.UsuarioResource" tiene anotaciones pero no hay ningún AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+17:49:11,345 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.UsuarioResource" en /META-INF/package.jdo
+17:49:11,346 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.UsuarioResource" en /WEB-INF/package.jdo
+17:49:11,346 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.UsuarioResource" en /package.jdo
+17:49:11,347 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.UsuarioResource" en /com/package.jdo
+17:49:11,347 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.UsuarioResource" en /com/Recuperacion/package.jdo
+17:49:11,347 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.UsuarioResource" en /com/Recuperacion/Recuperacion/package.jdo
+17:49:11,347 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.UsuarioResource" en /com/Recuperacion/Recuperacion/Clases/package.jdo
+17:49:11,348 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.UsuarioResource" en /com/Recuperacion/Recuperacion/Clases/UsuarioResource.jdo
+17:49:11,348 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Clases.UsuarioResource"
+17:49:11,348 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.UsuarioResource" tiene anotaciones pero no hay ningún AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+17:49:11,348 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "com.Recuperacion.Recuperacion.Clases.UsuarioResource" no tener Meta-Data
+17:49:11,348 (main) DEBUG [DataNucleus.MetaData] - La clase "com.Recuperacion.Recuperacion.Clases.UsuarioResource" no tiene MetaData o annotaciones.
+17:49:11,349 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Cliente" en /META-INF/package.jdo
+17:49:11,349 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Cliente" en /WEB-INF/package.jdo
+17:49:11,350 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Cliente" en /package.jdo
+17:49:11,350 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Cliente" en /com/package.jdo
+17:49:11,351 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Cliente" en /com/Recuperacion/package.jdo
+17:49:11,351 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Cliente" en /com/Recuperacion/Recuperacion/package.jdo
+17:49:11,352 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Cliente" en /com/Recuperacion/Recuperacion/Cliente.jdo
+17:49:11,352 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "com.Recuperacion.Recuperacion.Cliente"
+17:49:11,352 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "com.Recuperacion.Recuperacion.Cliente" no tener Meta-Data
+17:49:11,352 (main) DEBUG [DataNucleus.MetaData] - La clase "com.Recuperacion.Recuperacion.Cliente" no tiene MetaData o annotaciones.
+17:49:11,352 (main) DEBUG [DataNucleus.MetaData] - Populación del MetaData ...
+17:49:11,353 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.Tarea" : Populando Meta-Data
+17:49:11,353 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.Tarea" campo "nombre" : añadiendo el Meta-Data por el campo como no estaba en la definición de Meta-Data.
+17:49:11,353 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.Tarea" campo "fecha" : añadiendo el Meta-Data por el campo como no estaba en la definición de Meta-Data.
+17:49:11,353 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.Tarea" campo "descripcion" : añadiendo el Meta-Data por el campo como no estaba en la definición de Meta-Data.
+17:49:11,354 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.Usuario" : Populando Meta-Data
+17:49:11,354 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.Usuario" campo "nombre" : añadiendo el Meta-Data por el campo como no estaba en la definición de Meta-Data.
+17:49:11,355 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.Usuario" campo "pw" : añadiendo el Meta-Data por el campo como no estaba en la definición de Meta-Data.
+17:49:11,355 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.Usuario" campo "tareasPendientes" : añadiendo el Meta-Data por el campo como no estaba en la definición de Meta-Data.
+17:49:11,358 (main) DEBUG [DataNucleus.MetaData] - Inicialisación del MetaData ...
+17:49:11,359 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.Tarea" : Inicializando Meta-Data
+17:49:11,361 (main) DEBUG [DataNucleus.MetaData] - Clase "com.Recuperacion.Recuperacion.Clases.Usuario" : Inicializando Meta-Data
+17:49:11,361 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Carga de Metadata ya ha terminado
+17:49:11,365 (main) DEBUG [DataNucleus.Enhancer] - Enhance de la clase "com.Recuperacion.Recuperacion.Clases.Tarea" empezando ...
+17:49:11,386 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no implementa el interfaz "org.datanucleus.enhancement.Persistable"!
+17:49:11,386 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el campo "dnStateManager" pero lo necesita
+17:49:11,386 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el campo "dnInheritedFieldCount" pero lo necesita
+17:49:11,386 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el campo "dnFlags" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el campo "dnFieldNames" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnReplaceField" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnGetStateManager" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnIsTransactional" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnNewInstance" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnNewInstance" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnProvideFields" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "___dn$loadClass" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnGetManagedFieldCount" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnIsDirty" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnReplaceStateManager" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnReplaceFlags" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnIsDetached" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnMakeDirty" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnIsDeleted" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnProvideField" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnPreSerialize" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnGetObjectId" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnGetVersion" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnGetTransactionalObjectId" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnIsNew" pero lo necesita
+17:49:11,387 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnCopyKeyFieldsToObjectId" pero lo necesita
+17:49:11,388 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnCopyKeyFieldsToObjectId" pero lo necesita
+17:49:11,388 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnCopyField" pero lo necesita
+17:49:11,388 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnCopyKeyFieldsFromObjectId" pero lo necesita
+17:49:11,388 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnCopyKeyFieldsFromObjectId" pero lo necesita
+17:49:11,388 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnGetExecutionContext" pero lo necesita
+17:49:11,388 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnCopyFields" pero lo necesita
+17:49:11,388 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "__dnGetInheritedFieldCount" pero lo necesita
+17:49:11,388 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnNewObjectIdInstance" pero lo necesita
+17:49:11,388 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnNewObjectIdInstance" pero lo necesita
+17:49:11,388 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnIsPersistent" pero lo necesita
+17:49:11,388 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "dnReplaceFields" pero lo necesita
+17:49:11,388 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Tarea" no tiene el metodo "__dnFieldNamesInit" pero lo necesita
+17:49:11,405 (main) DEBUG [DataNucleus.Enhancer] - Agregando el interfaz: org.datanucleus.enhancement.Persistable
+17:49:11,412 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.<init> : ignorando enhance de set del campo "com.Recuperacion.Recuperacion.Clases.Tarea.nombre"
+17:49:11,412 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.<init> : ignorando enhance de set del campo "com.Recuperacion.Recuperacion.Clases.Tarea.fecha"
+17:49:11,412 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.<init> : ignorando enhance de set del campo "com.Recuperacion.Recuperacion.Clases.Tarea.descripcion"
+17:49:11,412 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.getIdTarea, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Tarea.idTarea" para utilisar "dnGetidTarea()"
+17:49:11,412 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.setIdTarea, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Tarea.idTarea" para utilisar "dnSetidTarea()"
+17:49:11,413 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.getNombre, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Tarea.nombre" para utilisar "dnGetnombre()"
+17:49:11,413 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.setNombre, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Tarea.nombre" para utilisar "dnSetnombre()"
+17:49:11,413 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.getFecha, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Tarea.fecha" para utilisar "dnGetfecha()"
+17:49:11,413 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.setFecha, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Tarea.fecha" para utilisar "dnSetfecha()"
+17:49:11,413 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.getDescripcion, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Tarea.descripcion" para utilisar "dnGetdescripcion()"
+17:49:11,413 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.setDescripcion, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Tarea.descripcion" para utilisar "dnSetdescripcion()"
+17:49:11,414 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.toString, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Tarea.idTarea" para utilisar "dnGetidTarea()"
+17:49:11,414 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.toString, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Tarea.nombre" para utilisar "dnGetnombre()"
+17:49:11,414 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.toString, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Tarea.fecha" para utilisar "dnGetfecha()"
+17:49:11,414 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Tarea.toString, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Tarea.descripcion" para utilisar "dnGetdescripcion()"
+17:49:11,414 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "org.datanucleus.enhancement.StateManager dnStateManager"
+17:49:11,415 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "byte dnFlags"
+17:49:11,415 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[Ljava.lang.String; dnFieldNames"
+17:49:11,416 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "int dnInheritedFieldCount"
+17:49:11,417 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void <clinit>()"
+17:49:11,418 (main) DEBUG [DataNucleus.Enhancer] - Agregando el constructor "com.Recuperacion.Recuperacion.Clases.Tarea()"
+17:49:11,419 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:49:11,420 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:49:11,420 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:49:11,420 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:49:11,421 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object dnGetObjectId()"
+17:49:11,421 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object dnGetVersion()"
+17:49:11,422 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnPreSerialize()"
+17:49:11,423 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:49:11,423 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "org.datanucleus.enhancement.StateManager dnGetStateManager()"
+17:49:11,424 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object dnGetTransactionalObjectId()"
+17:49:11,425 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean dnIsDeleted()"
+17:49:11,425 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean dnIsDirty()"
+17:49:11,425 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean dnIsNew()"
+17:49:11,425 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean dnIsPersistent()"
+17:49:11,425 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean dnIsTransactional()"
+17:49:11,425 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnMakeDirty(java.lang.String fieldName)"
+17:49:11,426 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object dnNewObjectIdInstance()"
+17:49:11,426 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:49:11,426 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnProvideFields([I indices)"
+17:49:11,427 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnReplaceFields([I indices)"
+17:49:11,427 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnReplaceFlags()"
+17:49:11,427 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:49:11,427 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean dnIsDetached()"
+17:49:11,427 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:49:11,427 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:49:11,428 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnReplaceField(int index)"
+17:49:11,429 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnProvideField(int index)"
+17:49:11,429 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnCopyField(com.Recuperacion.Recuperacion.Clases.Tarea obj, int index)"
+17:49:11,430 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:49:11,431 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[Ljava.lang.String; __dnFieldNamesInit()"
+17:49:11,431 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int __dnGetInheritedFieldCount()"
+17:49:11,431 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int dnGetManagedFieldCount()"
+17:49:11,432 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:49:11,434 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.String dnGetdescripcion(com.Recuperacion.Recuperacion.Clases.Tarea objPC)"
+17:49:11,434 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnSetdescripcion(com.Recuperacion.Recuperacion.Clases.Tarea objPC, java.lang.String val)"
+17:49:11,434 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.util.Date dnGetfecha(com.Recuperacion.Recuperacion.Clases.Tarea objPC)"
+17:49:11,434 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnSetfecha(com.Recuperacion.Recuperacion.Clases.Tarea objPC, java.util.Date val)"
+17:49:11,435 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int dnGetidTarea(com.Recuperacion.Recuperacion.Clases.Tarea objPC)"
+17:49:11,435 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnSetidTarea(com.Recuperacion.Recuperacion.Clases.Tarea objPC, int val)"
+17:49:11,435 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.String dnGetnombre(com.Recuperacion.Recuperacion.Clases.Tarea objPC)"
+17:49:11,435 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnSetnombre(com.Recuperacion.Recuperacion.Clases.Tarea objPC, java.lang.String val)"
+17:49:11,437 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\PC-John\Workspace-Procesos\Recuperacion\target\classes\com\Recuperacion\Recuperacion\Clases\Tarea.class" con definicion enhanced
+17:49:11,438 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.Recuperacion.Recuperacion.Clases.Tarea
+17:49:11,440 (main) DEBUG [DataNucleus.Enhancer] - Enhance de la clase "com.Recuperacion.Recuperacion.Clases.Tarea" ha terminado
+17:49:11,440 (main) DEBUG [DataNucleus.Enhancer] - Enhance de la clase "com.Recuperacion.Recuperacion.Clases.Usuario" empezando ...
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no implementa el interfaz "org.datanucleus.enhancement.Persistable"!
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el campo "dnStateManager" pero lo necesita
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el campo "dnInheritedFieldCount" pero lo necesita
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el campo "dnFlags" pero lo necesita
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el campo "dnFieldNames" pero lo necesita
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnReplaceField" pero lo necesita
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnGetStateManager" pero lo necesita
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnIsTransactional" pero lo necesita
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnNewInstance" pero lo necesita
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnNewInstance" pero lo necesita
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnProvideFields" pero lo necesita
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "___dn$loadClass" pero lo necesita
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnGetManagedFieldCount" pero lo necesita
+17:49:11,442 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnIsDirty" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnReplaceStateManager" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnReplaceFlags" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnIsDetached" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnMakeDirty" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnIsDeleted" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnProvideField" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnPreSerialize" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnGetObjectId" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnGetVersion" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnGetTransactionalObjectId" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnIsNew" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnCopyKeyFieldsToObjectId" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnCopyKeyFieldsToObjectId" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnCopyField" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnCopyKeyFieldsFromObjectId" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnCopyKeyFieldsFromObjectId" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnGetExecutionContext" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnCopyFields" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "__dnGetInheritedFieldCount" pero lo necesita
+17:49:11,443 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnNewObjectIdInstance" pero lo necesita
+17:49:11,444 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnNewObjectIdInstance" pero lo necesita
+17:49:11,444 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnIsPersistent" pero lo necesita
+17:49:11,444 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "dnReplaceFields" pero lo necesita
+17:49:11,444 (main) DEBUG [DataNucleus.Enhancer] - La clase "com.Recuperacion.Recuperacion.Clases.Usuario" no tiene el metodo "__dnFieldNamesInit" pero lo necesita
+17:49:11,445 (main) DEBUG [DataNucleus.Enhancer] - Agregando el interfaz: org.datanucleus.enhancement.Persistable
+17:49:11,445 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.<init> : ignorando enhance de set del campo "com.Recuperacion.Recuperacion.Clases.Usuario.nombre"
+17:49:11,445 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.<init> : ignorando enhance de set del campo "com.Recuperacion.Recuperacion.Clases.Usuario.pw"
+17:49:11,446 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.<init> : ignorando enhance de set del campo "com.Recuperacion.Recuperacion.Clases.Usuario.nombre"
+17:49:11,446 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.<init> : ignorando enhance de set del campo "com.Recuperacion.Recuperacion.Clases.Usuario.pw"
+17:49:11,446 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.getId, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Usuario.idUsuario" para utilisar "dnGetidUsuario()"
+17:49:11,446 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.setId, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Usuario.idUsuario" para utilisar "dnSetidUsuario()"
+17:49:11,446 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.getNombre, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Usuario.nombre" para utilisar "dnGetnombre()"
+17:49:11,446 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.setNombre, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Usuario.nombre" para utilisar "dnSetnombre()"
+17:49:11,446 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.getPw, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Usuario.pw" para utilisar "dnGetpw()"
+17:49:11,446 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.setPw, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Usuario.pw" para utilisar "dnSetpw()"
+17:49:11,446 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.getTareasPendientes, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Usuario.tareasPendientes" para utilisar "dnGettareasPendientes()"
+17:49:11,446 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.setTareasPendientes, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Usuario.tareasPendientes" para utilisar "dnSettareasPendientes()"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.toString, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Usuario.idUsuario" para utilisar "dnGetidUsuario()"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.toString, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Usuario.nombre" para utilisar "dnGetnombre()"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.toString, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Usuario.pw" para utilisar "dnGetpw()"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Enhancing metodo original com.Recuperacion.Recuperacion.Clases.Usuario.toString, cambiando el uso del campo "com.Recuperacion.Recuperacion.Clases.Usuario.tareasPendientes" para utilisar "dnGettareasPendientes()"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "org.datanucleus.enhancement.StateManager dnStateManager"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "byte dnFlags"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "[Ljava.lang.String; dnFieldNames"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el campo "int dnInheritedFieldCount"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void <clinit>()"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object dnGetObjectId()"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object dnGetVersion()"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnPreSerialize()"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:49:11,447 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "org.datanucleus.enhancement.StateManager dnGetStateManager()"
+17:49:11,448 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object dnGetTransactionalObjectId()"
+17:49:11,448 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean dnIsDeleted()"
+17:49:11,448 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean dnIsDirty()"
+17:49:11,448 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean dnIsNew()"
+17:49:11,448 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean dnIsPersistent()"
+17:49:11,449 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean dnIsTransactional()"
+17:49:11,449 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnMakeDirty(java.lang.String fieldName)"
+17:49:11,449 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object dnNewObjectIdInstance()"
+17:49:11,449 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:49:11,449 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnProvideFields([I indices)"
+17:49:11,449 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnReplaceFields([I indices)"
+17:49:11,450 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnReplaceFlags()"
+17:49:11,450 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:49:11,450 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "boolean dnIsDetached()"
+17:49:11,450 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:49:11,450 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:49:11,450 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnReplaceField(int index)"
+17:49:11,450 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnProvideField(int index)"
+17:49:11,450 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnCopyField(com.Recuperacion.Recuperacion.Clases.Usuario obj, int index)"
+17:49:11,450 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:49:11,450 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "[Ljava.lang.String; __dnFieldNamesInit()"
+17:49:11,450 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int __dnGetInheritedFieldCount()"
+17:49:11,451 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int dnGetManagedFieldCount()"
+17:49:11,451 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:49:11,451 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "int dnGetidUsuario(com.Recuperacion.Recuperacion.Clases.Usuario objPC)"
+17:49:11,451 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnSetidUsuario(com.Recuperacion.Recuperacion.Clases.Usuario objPC, int val)"
+17:49:11,451 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.String dnGetnombre(com.Recuperacion.Recuperacion.Clases.Usuario objPC)"
+17:49:11,451 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnSetnombre(com.Recuperacion.Recuperacion.Clases.Usuario objPC, java.lang.String val)"
+17:49:11,451 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.lang.String dnGetpw(com.Recuperacion.Recuperacion.Clases.Usuario objPC)"
+17:49:11,451 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnSetpw(com.Recuperacion.Recuperacion.Clases.Usuario objPC, java.lang.String val)"
+17:49:11,452 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "java.util.List dnGettareasPendientes(com.Recuperacion.Recuperacion.Clases.Usuario objPC)"
+17:49:11,452 (main) DEBUG [DataNucleus.Enhancer] - Agregando el metodo "void dnSettareasPendientes(com.Recuperacion.Recuperacion.Clases.Usuario objPC, java.util.List val)"
+17:49:11,453 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\PC-John\Workspace-Procesos\Recuperacion\target\classes\com\Recuperacion\Recuperacion\Clases\Usuario.class" con definicion enhanced
+17:49:11,454 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.Recuperacion.Recuperacion.Clases.Usuario
+17:49:11,456 (main) DEBUG [DataNucleus.Enhancer] - Enhance de la clase "com.Recuperacion.Recuperacion.Clases.Usuario" ha terminado
+17:49:11,458 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 2 clases. Tiempos : input=130 ms, enhance=95 ms, total=225 ms. Compruebe el LOG para los detalles
