@@ -7,9 +7,10 @@ Configuración
 
 Crear una base de datos llamada *jersey* y dar permisos al usuario por defecto
 
-    CREATE DATABASE recuperacionDB;
+    CREATE DATABASE recuperaciondb;
+    USE recuperaciondb;
     CREATE USER IF NOT EXISTS 'spq'@'localhost' IDENTIFIED BY 'spq';
-    GRANT ALL ON recuperacionDB.* TO 'spq'@'localhost';
+    GRANT ALL ON recuperaciondb.* TO 'spq'@'localhost';
 
 La configuración por defecto para la base de datos y los usuarios puede ser actualizada en el fichero *resources/datanucleus.properties*.
 
